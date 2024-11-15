@@ -1,0 +1,15 @@
+### Requeriments dels exercicis:
+
+ - pandas
+ - matplotlib.pyplot
+ - webbrowser
+ - folium
+
+### Requeriments dels tests:
+
+ - unittest
+ - os
+ - pandas
+ - matplotlib.pyplot
+ - requests
+ - from unittest.mock import patch

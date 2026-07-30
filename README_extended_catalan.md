@@ -20,40 +20,34 @@ podem trobar el pdf en Català i en Castellà.
 
 ## Directori
 
-+ activity_4
-|_ + Data
-   |_ Comentari-del-grafic.pdf
-   |_ nics-firearm-background-checks.csv
-   |_ us-state-populations.csv
-|_ + Enunciat
-   |_ + pdf
-      |_ CAT-PEC4-enun.pdf
-      |_ ES-PEC4-enun.pdf
-   |_ CAT-PEC4-enun.ipynb
-   |_ ES-PEC4-enun.ipynb
-|_ + Moduls
-   |_ Exercici1.py
-   |_ Exercici2.py
-   |_ Exercici3.py
-   |_ Exercici4.py
-   |_ Exercici5.py
-   |_ Exercici6.py
-|_ + Output
-   |_ mapa_llargues.html
-   |_ mapa_llicencies.html
-   |_ mapa_pistoles.html
-|_ + Tests
-   |_ Test_Exercici1.py
-   |_ Test_Exercici2.py
-   |_ Test_Exercici3.py
-   |_ Test_Exercici4.py
-   |_ Test_Exercici5.py
-   |_ Test_Exercici6.py
-|_ __init__.py
-|_ main.py
-|_ README.txt
-|_ requeriments.txt
-|_ LICENSE.txt
+```text
+.
+├── Data/
+│   ├── nics-firearm-background-checks.csv
+│   ├── us-state-populations.csv
+│   └── Comentari-del-grafic.pdf
+│
+├── Enunciat/
+├── Moduls/
+│   ├── Exercici1.py
+│   ├── Exercici2.py
+│   ├── Exercici3.py
+│   ├── Exercici4.py
+│   ├── Exercici5.py
+│   └── Exercici6.py
+│
+├── Output/
+│   ├── mapa_llargues.html
+│   ├── mapa_llicencies.html
+│   └── mapa_pistoles.html
+│
+├── Tests/
+├── main.py
+├── requirements.txt
+└── README.md
+└── README_extended.md
+└── README_extended_catalan.md
+```
 
 ## Requeriments
 
@@ -77,7 +71,9 @@ podem trobar el pdf en Català i en Castellà.
 
 Per a fer anar el codi s'ha d'executar l'arxiu main amb l'script:
 
+```bash
 python3 main.py
+```
 
 Aquest executarà tota la pràctica seguida, com s'indica a l'enunciat.
 Ara bé, una vegada executada tota la pràctica tindrem un menú esperant una resposta:
@@ -95,26 +91,32 @@ Pel que fa als tests:
 Si els volem executar s'haurà de fer d'un en un. Tenim un test per exercici.
 Per exemple, si volem fer els tests per a l'exercici 1, hem d'executar l'script següent:
 
+```bash
 python3 Test_Exercici1.py
+```
 
 En referència a la cobertura:
 
 Des del directori del projecte hem d'executar la instrucció:
-
+```bash
 coverage run --omit="/usr/*" -m unittest discover -s Tests -p "Test_*.py"
+```
 
 A la terminal. Seguit de:
-
+```bash
 coverage report -m
+```
 
 per a fer un informe i llegir-lo podem executar:
-
+```bash
 coverage html
+```
 
 Que ens generarà un informe en html per a visualitzar-lo amb claredat.
 Se'ns generarà la carpeta htmlcov i per llegir-lo només caldrà la instrucció:
-
+```bash
 open htmlcov/index.html
+```
 
 En el nostre cas podem veure que tenim una cobertura de tot el projecte del 72%.
 Idealment, voldríem que la cobertura fos la més alta possible.

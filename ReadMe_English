@@ -1,30 +1,33 @@
-# 📊 Firearm Background Checks Data Analysis
+# 📊 US Firearm Background Checks Analysis
 
-> Final project for the Data Science Programming course at the Universitat Oberta de Catalunya (UOC). :contentReference[oaicite:0]{index=0}
+> Data Science Programming final project for the **Universitat Oberta de Catalunya (UOC)**. This project explores the FBI NICS firearm background check dataset using Python for data cleaning, analysis, visualization, and testing. :contentReference[oaicite:0]{index=0}
+
+---
 
 ## 🚀 Overview
 
-This project analyzes the **FBI National Instant Criminal Background Check System (NICS)** dataset to explore firearm background checks across the United States.
+This project follows a complete data analysis workflow, from importing raw datasets to generating interactive visualizations and statistical insights.
 
-The project demonstrates the complete data analysis workflow:
+The analysis includes:
 
-- 📥 Data collection
-- 🧹 Data cleaning
+- 📥 Data ingestion from CSV files and online sources
+- 🧹 Data cleaning and preprocessing
 - 📊 Exploratory Data Analysis (EDA)
-- 📈 Data visualization
-- 🗺️ Interactive maps
-- ✅ Unit testing
+- 📈 Trend visualization
+- 🗺️ Interactive choropleth maps
+- ✅ Automated unit testing
 
 ---
 
 ## ✨ Features
 
-- Read datasets directly from external sources
-- Clean and transform data using Pandas
-- Aggregate statistics by state and year
-- Visualize trends with Matplotlib
-- Build interactive choropleth maps using Folium
-- Automated unit tests with high code coverage
+- Import and clean real-world datasets
+- Transform and engineer new features
+- Aggregate data by state and year
+- Analyze firearm permits and registrations
+- Create interactive maps with Folium
+- Visualize historical trends with Matplotlib
+- Unit tests for every exercise
 
 ---
 
@@ -46,36 +49,79 @@ The project demonstrates the complete data analysis workflow:
 ```text
 .
 ├── Data/
-├── Modules/
+│   ├── nics-firearm-background-checks.csv
+│   ├── us-state-populations.csv
+│   └── Comentari-del-grafic.pdf
+│
+├── Enunciat/
+├── Moduls/
+│   ├── Exercici1.py
+│   ├── Exercici2.py
+│   ├── Exercici3.py
+│   ├── Exercici4.py
+│   ├── Exercici5.py
+│   └── Exercici6.py
+│
 ├── Output/
+│   ├── mapa_llargues.html
+│   ├── mapa_llicencies.html
+│   └── mapa_pistoles.html
+│
 ├── Tests/
 ├── main.py
-└── requirements.txt
+├── requirements.txt
+└── README.md
+└── README_extended.md
+└── README_extended_catalan.md
 ```
 
 ---
 
-## ▶️ Running the Project
+## 📚 Exercises
 
-Install dependencies
+| Exercise | Description |
+|----------|-------------|
+| **Exercise 1** | Import and clean the original dataset |
+| **Exercise 2** | Feature engineering from date columns |
+| **Exercise 3** | Aggregate statistics by year and state |
+| **Exercise 4** | Time-series visualization |
+| **Exercise 5** | Population normalization and data merging |
+| **Exercise 6** | Interactive choropleth maps |
+
+---
+
+## ▶️ Getting Started
+
+### Clone the repository
+
+```bash
+git clone <repository-url>
+cd <repository>
+```
+
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Run
+### Run the project
 
 ```bash
 python main.py
 ```
 
-Run all tests
+---
+
+## ✅ Running Tests
+
+Run all unit tests:
 
 ```bash
 python -m unittest discover Tests
 ```
 
-Generate coverage report
+Generate a coverage report:
 
 ```bash
 coverage run -m unittest discover Tests
@@ -84,44 +130,33 @@ coverage html
 
 ---
 
-## 📊 Analysis Performed
-
-- Data cleaning
-- Feature engineering
-- Time-series analysis
-- Group-by aggregations
-- Relative metrics by population
-- Interactive geographic visualizations
-
----
-
-## 🗺️ Outputs
+## 📈 Outputs
 
 The project generates:
 
-- 📈 Time evolution charts
+- 📊 Historical trend visualizations
 - 🗺️ Firearm permit map
-- 🗺️ Handgun map
-- 🗺️ Long gun map
+- 🗺️ Handgun registration map
+- 🗺️ Long gun registration map
 
 ---
 
-## 🎯 Learning Outcomes
+## 🎯 Skills Demonstrated
 
-This project strengthened my skills in:
-
-- Data wrangling with Pandas
-- Writing reusable Python modules
-- Software testing
-- Data visualization
-- Geographic data visualization
-- Clean project organization
+- Data Cleaning
+- Exploratory Data Analysis
+- Data Transformation
+- Feature Engineering
+- Data Visualization
+- Geospatial Analysis
+- Unit Testing
+- Python Project Organization
 
 ---
 
 ## 📄 License
 
-MIT License
+This project was developed for academic purposes as part of the **Data Science Programming** course at the **Universitat Oberta de Catalunya (UOC)**. :contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -129,5 +164,6 @@ MIT License
 
 **Víctor Màrmol Romero**
 
-- 💼 LinkedIn: <your-linkedin>
-- 📧 vmarmolr@gmail.com
+📧 vmarmolr@gmail.com
+
+💼 LinkedIn: https://linkedin.com/in/victormarmolromero

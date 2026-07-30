@@ -323,7 +323,7 @@ Tenim un test per exercici:
 
 ## Llicencia
 
-Copyright (c) 2024 [El teu nom]
+Copyright (c) 2024 [Victor Marmol Romero]
 Aquesta obra està sota una llicència Creative Commons Reconeixement-NoComercial 4.0 Internacional. https://creativecommons.org/licenses/by/3.0/es/legalcode.ca
 
 ## Contacte

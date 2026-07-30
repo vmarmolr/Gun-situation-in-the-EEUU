@@ -1,0 +1,133 @@
+# 📊 Firearm Background Checks Data Analysis
+
+> Final project for the Data Science Programming course at the Universitat Oberta de Catalunya (UOC). :contentReference[oaicite:0]{index=0}
+
+## 🚀 Overview
+
+This project analyzes the **FBI National Instant Criminal Background Check System (NICS)** dataset to explore firearm background checks across the United States.
+
+The project demonstrates the complete data analysis workflow:
+
+- 📥 Data collection
+- 🧹 Data cleaning
+- 📊 Exploratory Data Analysis (EDA)
+- 📈 Data visualization
+- 🗺️ Interactive maps
+- ✅ Unit testing
+
+---
+
+## ✨ Features
+
+- Read datasets directly from external sources
+- Clean and transform data using Pandas
+- Aggregate statistics by state and year
+- Visualize trends with Matplotlib
+- Build interactive choropleth maps using Folium
+- Automated unit tests with high code coverage
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Language | Python |
+| Data Analysis | Pandas |
+| Visualization | Matplotlib |
+| Maps | Folium |
+| Testing | unittest |
+| Coverage | coverage.py |
+
+---
+
+## 📂 Project Structure
+
+```text
+.
+├── Data/
+├── Modules/
+├── Output/
+├── Tests/
+├── main.py
+└── requirements.txt
+```
+
+---
+
+## ▶️ Running the Project
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run
+
+```bash
+python main.py
+```
+
+Run all tests
+
+```bash
+python -m unittest discover Tests
+```
+
+Generate coverage report
+
+```bash
+coverage run -m unittest discover Tests
+coverage html
+```
+
+---
+
+## 📊 Analysis Performed
+
+- Data cleaning
+- Feature engineering
+- Time-series analysis
+- Group-by aggregations
+- Relative metrics by population
+- Interactive geographic visualizations
+
+---
+
+## 🗺️ Outputs
+
+The project generates:
+
+- 📈 Time evolution charts
+- 🗺️ Firearm permit map
+- 🗺️ Handgun map
+- 🗺️ Long gun map
+
+---
+
+## 🎯 Learning Outcomes
+
+This project strengthened my skills in:
+
+- Data wrangling with Pandas
+- Writing reusable Python modules
+- Software testing
+- Data visualization
+- Geographic data visualization
+- Clean project organization
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## 👤 Author
+
+**Víctor Màrmol Romero**
+
+- 💼 LinkedIn: <your-linkedin>
+- 📧 vmarmolr@gmail.com

@@ -1,6 +1,6 @@
 # 📊 US Firearm Background Checks Analysis
 
-> Data Science Programming final project for the **Universitat Oberta de Catalunya (UOC)**. This project explores the FBI NICS firearm background check dataset using Python for data cleaning, analysis, visualization, and testing. :contentReference[oaicite:0]{index=0}
+> Data Science Programming final project for the **Universitat Oberta de Catalunya (UOC)**. This project explores the FBI NICS firearm background check dataset using Python for data cleaning, analysis, visualization, and testing.
 
 ---
 
@@ -156,7 +156,7 @@ The project generates:
 
 ## 📄 License
 
-This project was developed for academic purposes as part of the **Data Science Programming** course at the **Universitat Oberta de Catalunya (UOC)**. :contentReference[oaicite:1]{index=1}
+This project was developed for academic purposes as part of the **Data Science Programming** course at the **Universitat Oberta de Catalunya (UOC)**.
 
 ---
 
